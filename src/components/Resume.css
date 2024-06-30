@@ -1,0 +1,43 @@
+/* Ensures the content takes up full viewport height */
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the container takes full viewport height */
+  }
+  
+  /* Centers the resume content vertically and horizontally */
+  .resume-content {
+    flex: 1; /* Takes up remaining vertical space */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+  }
+  
+  /* Styles for the "View Resume" button */
+  .view-resume-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-resume-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Styles for the fixed footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
